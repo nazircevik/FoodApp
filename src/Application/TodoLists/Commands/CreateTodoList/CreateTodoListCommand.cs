@@ -8,7 +8,6 @@ namespace FoodApp.Application.TodoLists.Commands.CreateTodoList
 {
     public class CreateTodoListCommand : IRequest<int>
     {
-        // Titlte
         public string Title { get; set; }
     }
 
